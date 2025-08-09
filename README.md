@@ -19,6 +19,8 @@ A [LangGraph](https://github.com/langchain-ai/langgraph) agent that automaticall
 
 - **Intelligent Testing**: Comprehensive test suite validates MCP protocol compliance
 
+- **Supabase Integration**: Automatically saves generated MCP server endpoints to your Supabase database for easy management
+
 - **Self-Healing**: Uses Morph LLM to automatically fix errors and refine the generated code
 
 - **Iterative Refinement**: Test → Fix → Redeploy cycle until the server works correctly
@@ -79,6 +81,9 @@ LANGSMITH_API_KEY=your_langsmith_api_key
 ```
 
 ### Usage
+
+**🚀 New: Supabase Integration**  
+The generator now automatically saves MCP server endpoints to your Supabase database! See [SUPABASE_INTEGRATION.md](./SUPABASE_INTEGRATION.md) for setup details.
 
 #### Run with LangGraph Studio
 
